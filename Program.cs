@@ -2,7 +2,7 @@
 
 Console.WriteLine("Smartphone Nokia:");
 
-Smartphone nokia = new Nokia("923456789", "Modelo 1", "12345678910111", 112);
+Smartphone nokia = new Nokia("923456789", "Modelo 1", "123456789101112", 112);
 
 while (nokia.Numero.Length != 9 || nokia.Numero[0] != '9')
 {
@@ -24,7 +24,7 @@ Console.WriteLine("\n");
 
 
 Console.WriteLine("Smartphone Iphone:");
-Smartphone iphone = new Iphone("887654321", "Modelo 2", "101021031041051", 3248);
+Smartphone iphone = new Iphone("988765432", "Modelo 2", "101021031041051", 3248);
 
 while (iphone.Numero.Length != 9 || iphone.Numero[0] != '9')
 {
